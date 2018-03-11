@@ -1,7 +1,7 @@
 # SAMTrisJS
 Tetris clone built to experiment with the [HTML5 canvas](https://www.w3schools.com/html/html5_canvas.asp).
 
-![samtris](https://github.com/samegens/samtrisjs/blob/master/screenshots/samtris.png?raw=true) ![game]https://github.com/samegens/samtrisjs/blob/master/screenshots/game.png?raw=true ![highscore](https://github.com/samegens/samtrisjs/blob/master/screenshots/highscore.png?raw=true)
+![samtris](https://github.com/samegens/samtrisjs/blob/master/screenshots/samtris.png?raw=true) ![game](https://github.com/samegens/samtrisjs/blob/master/screenshots/game.png?raw=true) ![highscore](https://github.com/samegens/samtrisjs/blob/master/screenshots/highscore.png?raw=true)
 
 ## Features
 
