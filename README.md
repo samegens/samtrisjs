@@ -9,3 +9,5 @@ Tetris clone built to experiment with the [HTML5 canvas](https://www.w3schools.c
 - Loads all Tetris segments from a single [image file](https://github.com/samegens/samtrisjs/blob/master/img/blocks.png?raw=true).
 - Menu.
 - High scores (not persisted).
+- Unit tests using [QUnit](https://qunitjs.com/).
+- Custom font, created with [FontStruct](http://fontstruct.com/) and converted to woff with [ttf-to-woff](http://everythingfonts.com/ttf-to-woff)
