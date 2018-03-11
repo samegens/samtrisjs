@@ -1,0 +1,14 @@
+
+->Intro/intro screen -automatic-> Main menu
+
+Main menu/menu screen -select option-> High scores
+					  -select option-> Playing
+					  
+High scores/high score screen -escape-> Main menu
+
+Playing/play screen -game over-> Game over
+
+Game over/play screen + game over overlay -high score-> fill high score
+										  -no high score-> Main menu
+
+fill high score/play screen + fill high score overlay -enter-> Main menu

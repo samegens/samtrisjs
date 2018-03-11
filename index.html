@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TETRISJS</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/site-specific.css" />
+<script language="javascript" type="text/javascript" src="js/lib/require.min.js" data-main="js/app"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+	<center>
+		<br />
+		<br />
+		<canvas id="myCanvas" width="640" height="400"></canvas>
+		<div style="font: 16px SDSnatcher; line-height: 20px;">
+			Keys:<br/>
+			left, right, down: move<br/>
+			up: rotate<br/>
+			space: drop
+		</div>
+	</center>
+</div>
+</div>	<!-- row -->
+</div>	<!-- container -->
+
+<script>
+	context = document.getElementById("myCanvas").getContext("2d");
+	context.font = "16px SDSnatcher";
+	context.fillStyle = "white";
+	context.fillText("LOADING...", 16, 32);
+</script>
+
+</body>
+</html>

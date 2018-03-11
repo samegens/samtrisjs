@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "SDSnatcher";
+    src: url("../fonts/KonamiSDSnatcherMSX.woff") format('woff');
+}
+
+body {
+	font-family: 'SDSnatcher';
+	font-size: 16px;
+	background: black;
+	color: white;
+}
+
+canvas {
+	border: 1px solid #ffffff;
+}

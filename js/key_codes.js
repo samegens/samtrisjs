@@ -1,0 +1,11 @@
+define(function () {
+	return {
+		KEYCODE_LEFT: 37,
+		KEYCODE_UP: 38,
+		KEYCODE_RIGHT: 39,
+		KEYCODE_DOWN: 40,
+		KEYCODE_SPACE: 32,
+		KEYCODE_ENTER: 13,
+		KEYCODE_BACKSPACE: 8
+	};
+});
