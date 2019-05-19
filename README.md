@@ -19,12 +19,16 @@ Tetris clone built to experiment with the [HTML5 canvas](https://www.w3schools.c
 
 - Use the Vagrantfile if you can't run Docker locally, for example when you have Windows 10 Home. See [Vagrant](https://www.vagrantup.com/) for more information.
 - To create the image:
-    git clone https://github.com/samegens/samtrisjs
-    cd samtrisjs
-    docker build -t samtrisjs .
-    docker run -d --name samtrisjs -p 8080:80 samtrisjs
+```
+git clone https://github.com/samegens/samtrisjs
+cd samtrisjs
+docker build -t samtrisjs .
+docker run -d --name samtrisjs -p 8080:80 samtrisjs
+```
 - Point your browser to http://localhost:8080, or replace localhost by the IP-address of the VM.
 
 To clean up:
-    docker kill samtrisjs
-    docker rm samtrisjs
+```
+docker kill samtrisjs
+docker rm samtrisjs
+```
