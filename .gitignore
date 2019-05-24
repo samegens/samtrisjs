@@ -1,2 +1,4 @@
 /log
 /webserver.bat
+.vagrant
+*.log
