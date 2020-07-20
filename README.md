@@ -23,12 +23,12 @@ Tetris clone built to experiment with the [HTML5 canvas](https://www.w3schools.c
 git clone https://github.com/samegens/samtrisjs
 cd samtrisjs
 docker build -t samtrisjs .
-docker run -d --name samtrisjs -p 8080:80 samtrisjs
+docker run -d --name samtrisjs -p 8080:8080 samtrisjs
 ```
 - Point your browser to http://localhost:8080, or replace localhost by the IP-address of the VM.
 
 To clean up:
 ```
-docker kill samtrisjs
+docker stop samtrisjs
 docker rm samtrisjs
 ```
