@@ -1,2 +1,3 @@
-FROM nginx
-COPY . /usr/share/nginx/html/
+FROM pierrezemb/gostatic
+COPY . /srv/http
+CMD ["-port", "8080"]
