@@ -8,5 +8,11 @@ steps:
 - script: |
     set -eo pipefail
     set -u
-    git describe --tags --abbrev=0
+    tag=`git describe --tags --abbrev=0`
+    echo '##vso[task.setvariable variable=tag]'$tag
   displayName: 'Retrieve tag'
+- script: |
+    set -eo pipefail
+    set -u
+    echo '$(tag)'
+  displayName: 'Show tag'
