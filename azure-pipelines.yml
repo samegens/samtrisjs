@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    set -eo pipefail
+    set -u
+    git describe --tags --abbrev=0
+  displayName: 'Retrieve tag'
