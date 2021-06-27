@@ -16,3 +16,13 @@ steps:
     set -u
     echo '$(tag)'
   displayName: 'Show tag'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'blauwelucht-docker-hub'
+    repository: 'samtris'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
+    tags: |
+      $(tag)
+      latest
+  displayName: 'Build and push Docker image'
