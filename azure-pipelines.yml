@@ -19,10 +19,12 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'blauwelucht-docker-hub'
-    repository: 'samtris'
+    repository: 'blauwelucht/samtris'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
       $(tag)
       latest
+    addPipelineData: false
+    addBaseImageData: false
   displayName: 'Build and push Docker image'
